@@ -11,3 +11,8 @@ int main()
  printf("Number after toggling %d bit: %d (in decimal)\n", n, newNum);
  return 0;
 }
+
+
+//bitStatus = (num >> n) & 1;       set nth bit
+//newNum = (1 << n) | num;          get of bits
+// newNum = num ^ (1 << n);         toggle
