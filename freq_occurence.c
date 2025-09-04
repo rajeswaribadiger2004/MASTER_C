@@ -7,4 +7,6 @@ def most_frequent(nums):
 
 # Example
 nums = [1,2,2,3,1,4,2,1,1]
-print(most_frequent(nums))  # Output: 1
+print(most_frequent(nums))  
+
+## Output: 1
